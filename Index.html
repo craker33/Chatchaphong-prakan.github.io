@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Chatchaphong Prakan</title>
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #34495e;
+            --accent-color: #3498db;
+            --text-color: #333;
+            --bg-color: #f4f6f8;
+        }
+
+        body {
+            font-family: 'Sarabun', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 40px 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .resume-container {
+            width: 100%;
+            max-width: 900px;
+            background-color: #ffffff;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+            display: flex;
+            flex-direction: row;
+            overflow: hidden;
+        }
+
+        /* Left Column */
+        .left-column {
+            width: 35%;
+            background-color: var(--primary-color);
+            color: #ffffff;
+            padding: 40px 30px;
+        }
+
+        .profile-image-container {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .profile-image {
+            width: 160px;
+            height: 200px;
+            background-color: var(--accent-color);
+            border: 4px solid #ffffff;
+            border-radius: 8px;
+            object-fit: cover;
+            display: inline-block;
+        }
+
+        .left-column h2 {
+            font-size: 1.2rem;
+            color: #ecf0f1;
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 8px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+
+        .left-column p {
+            font-size: 0.95rem;
+            margin: 8px 0;
+            line-height: 1.5;
+            color: #bdc3c7;
+        }
+
+        .left-column p strong {
+            color: #ffffff;
+        }
+
+        /* Right Column */
+        .right-column {
+            width: 65%;
+            padding: 40px 40px;
+        }
+
+        .name-header {
+            margin-bottom: 40px;
+        }
+
+        .name-header h1 {
+            font-size: 2.2rem;
+            color: var(--primary-color);
+            margin: 0 0 10px 0;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .name-header h3 {
+            font-size: 1.5rem;
+            color: var(--secondary-color);
+            margin: 0;
+            font-weight: 400;
+        }
+
+        .right-column h2 {
+            font-size: 1.3rem;
+            color: var(--primary-color);
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 8px;
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+
+        .section {
+            margin-bottom: 35px;
+        }
+
+        .project-item {
+            margin-bottom: 20px;
+        }
+
+        .project-year {
+            font-weight: 600;
+            color: var(--accent-color);
+            margin-bottom: 5px;
+        }
+
+        ul {
+            padding-left: 20px;
+            margin: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+            line-height: 1.6;
+        }
+
+        .contact-info p {
+            margin: 10px 0;
+            display: flex;
+            align-items: flex-start;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .resume-container {
+                flex-direction: column;
+            }
+            .left-column, .right-column {
+                width: 100%;
+                box-sizing: border-box;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="resume-container">
+        <!-- Left Column -->
+        <div class="left-column">
+            <div class="profile-image-container">
+                <!-- ใส่รูปภาพของคุณตรงนี้ โดยเปลี่ยน src เป็นที่อยู่ไฟล์รูปภาพของคุณ -->
+                <img src="#" alt="Chatchaphong Prakan" class="profile-image" style="background-color: #3498db;">
+            </div>
+
+            <div class="section">
+                <h2>ประวัติส่วนตัว</h2>
+                <p><strong>เกิดวันที่:</strong> 30 กรกฎาคม 2548</p>
+                <p><strong>อายุ:</strong> 21 ปี</p>
+                <p><strong>สัญชาติ:</strong> ไทย</p>
+                <p><strong>เชื้อชาติ:</strong> ไทย</p>
+                <p><strong>ศาสนา:</strong> พุทธ</p>
+            </div>
+
+            <div class="section">
+                <h2>ประวัติการศึกษา</h2>
+                <p><strong>ประถมศึกษา:</strong><br>โรงเรียนบ้านวังโป่ง</p>
+                <p><strong>มัธยมศึกษา:</strong><br>โรงเรียนวังเหนือวิทยา</p>
+                <p><strong>ปัจจุบันศึกษาอยู่ที่:</strong><br>มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ</p>
+            </div>
+
+            <div class="section">
+                <h2>ภาษา</h2>
+                <p><strong>ภาษาไทย:</strong> ดีเยี่ยม</p>
+                <p><strong>ภาษาอังกฤษ:</strong> ดี</p>
+            </div>
+        </div>
+
+        <!-- Right Column -->
+        <div class="right-column">
+            <div class="name-header">
+                <h1>Chatchaphong Prakan</h1>
+                <h3>นายชัชพงศ์ ประกัน</h3>
+            </div>
+
+            <div class="section">
+                <h2>ประวัติการทำโปรเจค</h2>
+                
+                <div class="project-item">
+                    <div class="project-year">ปีการศึกษา 2567</div>
+                    <ul>
+                        <li><strong>Crazy mine sweeper :</strong> รับหน้าที่ออกแบบ UX/UI เขียนโค้ดเกม</li>
+                    </ul>
+                </div>
+
+                <div class="project-item">
+                    <div class="project-year">ปีการศึกษา 2568</div>
+                    <ul>
+                        <li><strong>ระบบ อินเตอร์เน็ตคาเฟ่ :</strong> รับหน้าที่เขียน DataFlowDiagram, ออกแบบ Data Dictionary และออกแบบระบบ</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>ทักษะการทำงาน</h2>
+                <ul>
+                    <li>ทักษะการใช้ Canva, Photoshop</li>
+                    <li>ทักษะการใช้ VS Code</li>
+                    <li>ทักษะการใช้ Microsoft Office</li>
+                    <li>ทักษะการทำงานเป็นทีม สามารถรับแรงกดดันได้ดี สามารถทำงานที่ได้รับมอบหมายออกมาได้อย่างมีคุณภาพ</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>ช่องทางติดต่อ</h2>
+                <div class="contact-info">
+                    <p><strong>เบอร์โทรศัพท์:</strong> &nbsp;098-985-0918</p>
+                    <p><strong>อีเมล:</strong> &nbsp;chatchaphongprakan7@gmail.com</p>
+                    <p><strong>ที่อยู่:</strong> &nbsp;เลขที่ 59 ม.4 แม่โป่ง ต.วังใต้ อ.วังเหนือ จ.ลำปาง 52140</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
